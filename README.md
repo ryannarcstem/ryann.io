@@ -1,4 +1,4 @@
-# Meridian E-Commerce & Blog Website
+# Meridian
 
 A fully functional, responsive e-commerce and blog website built with HTML, CSS, and JavaScript. Features a distinctive, elegant design with a refined aesthetic using Playfair Display and Work Sans typography.
 
