@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meridian - Modern E-Commerce & Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">MERIDIAN</a>
+            <div class="nav-links">
+                <a href="shop.html">Shop</a>
+                <a href="blog.html">Stories</a>
+                <a href="about.html">About</a>
+                <a href="cart.html" class="cart-link">
+                    Cart <span class="cart-count" id="cartCount">0</span>
+                </a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-line">Curated</span>
+                <span class="hero-line">Essentials</span>
+            </h1>
+            <p class="hero-subtitle">Timeless pieces for the modern aesthetic</p>
+            <a href="shop.html" class="btn btn-primary">Explore Collection</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="section-header">
+            <h2 class="section-title">Featured</h2>
+            <a href="shop.html" class="section-link">View All →</a>
+        </div>
+        <div class="products-grid" id="featuredProducts">
+            <!-- Products will be loaded via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Story Preview -->
+    <section class="story-preview">
+        <div class="story-content">
+            <div class="story-text">
+                <span class="story-label">Latest Story</span>
+                <h2 class="story-title">The Art of Slow Living</h2>
+                <p class="story-excerpt">Discover how mindful consumption and intentional design choices can transform your daily routine into moments of quiet luxury.</p>
+                <a href="blog.html" class="btn btn-secondary">Read More</a>
+            </div>
+            <div class="story-image">
+                <div class="image-placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values">
+        <div class="values-grid">
+            <div class="value-card">
+                <div class="value-icon">◆</div>
+                <h3>Crafted</h3>
+                <p>Each piece is thoughtfully designed and carefully sourced from artisans worldwide</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">◇</div>
+                <h3>Sustainable</h3>
+                <p>We prioritize materials and processes that respect our planet and future generations</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">◈</div>
+                <h3>Timeless</h3>
+                <p>Designs that transcend trends, built to be cherished for years to come</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Stay Connected</h2>
+            <p>Join our community for early access to new collections and stories</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="logo">MERIDIAN</h3>
+                <p>Curated essentials for the modern aesthetic</p>
+            </div>
+            <div class="footer-section">
+                <h4>Shop</h4>
+                <a href="shop.html">All Products</a>
+                <a href="shop.html#new">New Arrivals</a>
+                <a href="shop.html#bestsellers">Best Sellers</a>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="blog.html">Stories</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Follow</h4>
+                <a href="#instagram">Instagram</a>
+                <a href="#pinterest">Pinterest</a>
+                <a href="#twitter">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Meridian. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

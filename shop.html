@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Meridian</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">MERIDIAN</a>
+            <div class="nav-links">
+                <a href="shop.html" class="active">Shop</a>
+                <a href="blog.html">Stories</a>
+                <a href="about.html">About</a>
+                <a href="cart.html" class="cart-link">
+                    Cart <span class="cart-count" id="cartCount">0</span>
+                </a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Shop Header -->
+    <section class="page-header">
+        <h1>Collection</h1>
+        <p>Discover our carefully curated selection</p>
+    </section>
+
+    <!-- Filter and Sort -->
+    <section class="shop-controls">
+        <div class="filter-section">
+            <button class="filter-btn" data-category="all">All</button>
+            <button class="filter-btn" data-category="furniture">Furniture</button>
+            <button class="filter-btn" data-category="lighting">Lighting</button>
+            <button class="filter-btn" data-category="decor">Decor</button>
+            <button class="filter-btn" data-category="textiles">Textiles</button>
+        </div>
+        <div class="sort-section">
+            <select id="sortSelect">
+                <option value="featured">Featured</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="name">Name: A to Z</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="shop-section">
+        <div class="products-grid" id="productsGrid">
+            <!-- Products will be loaded via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="logo">MERIDIAN</h3>
+                <p>Curated essentials for the modern aesthetic</p>
+            </div>
+            <div class="footer-section">
+                <h4>Shop</h4>
+                <a href="shop.html">All Products</a>
+                <a href="shop.html#new">New Arrivals</a>
+                <a href="shop.html#bestsellers">Best Sellers</a>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="blog.html">Stories</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Follow</h4>
+                <a href="#instagram">Instagram</a>
+                <a href="#pinterest">Pinterest</a>
+                <a href="#twitter">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Meridian. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
